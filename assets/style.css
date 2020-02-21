@@ -1,0 +1,335 @@
+.zcard {
+    clear: both;
+    display: flex;
+    font-size: small;
+    margin: 18px 18px 32px 18px;
+    padding: 8px 6px 8px 16px;
+    box-shadow: 15px 28px 25px -18px rgba(0, 0, 0, .2);
+    transition: all 235ms ease 0s;
+}
+
+.zcard:hover {
+    -webkit-transform: translate3d(0, 2px, 0);
+    transform: translate3d(0, 2px, 0);
+    box-shadow: 2px 8px 8px -5px rgba(0, 0, 0, .3)
+}
+
+.mw100 {
+    min-width: 100px;
+}
+
+.zcard-left {
+    /*    background-color: #fff;
+*/
+    float: left;
+    overflow: hidden;
+    margin-top: 4px;
+    position: relative;
+    height: 135px;
+    width: 100px;
+}
+
+.b1 {
+    border: 1px solid #ebebeb;
+}
+
+.zimage {
+    overflow: hidden;
+    position: absolute;
+    display: block;
+    height: 135px;
+    width: 100px;
+}
+
+.zcard-right {
+    flex-grow: 1;
+    margin-left: 20px;
+    padding-top: 4px;
+}
+
+.zcard-text {
+    color: #3C4043;
+    line-height: 1.4;
+    margin-top: 10px;
+    padding-right: 1em;
+    font-size: 1.2em;
+
+}
+
+.zcard-foot {
+    display: flex;
+    margin-top: 18px;
+    margin-bottom: 4px;
+}
+
+
+.dib {
+    display: inline-block;
+}
+
+.mt8 {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+
+.mr10 {
+    margin-right: 0.75em;
+}
+
+.p08 {
+    padding: 0 8px;
+}
+
+.p4 {
+    padding: 0.4em;
+}
+
+.p1 {
+    padding: 1em;
+}
+
+.zcard-button {
+    align-items: center;
+    user-select: none;
+    /*   border: 1px #DFE1E5 solid;
+  border-radius: 20px;
+   */
+    box-sizing: border-box;
+    display: flex;
+    height: 32px;
+    outline: none;
+    transition: box-shadow 200ms cubic-bezier(0.4, 0, 0.2, 1);
+    width: fit-content;
+}
+
+.zcard-button-text {
+    color: #3C4043;
+    font-size: 14px;
+    font-weight: 400;
+    padding-right: 16px;
+    white-space: nowrap;
+}
+
+.pr {
+    position: relative;
+}
+
+.blue {
+    color: #1A73E8;
+}
+
+.size18 {
+    height: 18px;
+    line-height: 18px;
+    width: 18px
+}
+
+a {
+    text-decoration: none;
+    background-image: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+body,
+h1,
+h2,
+h3,
+span,
+a,
+button {
+    font-family: arial, sans-serif;
+}
+
+
+.collapsible:nth-of-type(1) {
+
+    border-top: none;
+
+}
+
+.collapsible label {
+    border: none;
+    color: #41403e;
+    display: inline-block;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.collapsible .collapsible-body {
+
+    transition: all 235ms ease-in-out 0s;
+    background-color: rgba(204, 204, 204, .03);
+    border-bottom: none;
+    margin: 0;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding: 0;
+
+}
+
+.collapsible input[id^="collapsible"]:checked~div.collapsible-body {
+    margin: 0;
+    max-height: 960px;
+    opacity: 1;
+    padding: 0;
+
+}
+
+div,
+label,
+body,
+a,
+p,
+button,
+span,
+h5 {
+    /*    font-family: 'Indie Flower', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-family: Neucha, sans-serif;
+    font-family: 'Patrick Hand', cursive;
+    font-family: 'Caveat', cursive;
+    font-family: 'Shadows Into Light', cursive;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Lacquer', sans-serif;
+    font-family: Arial;
+    font-family: 'Lacquer', sans-serif;
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Lacquer', sans-serif;
+    font-family: 'Single Day', cursive;*/
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+p {
+    font-size: 1.4em;
+}
+
+h4,
+h3,
+h2 {
+    /*    font-family: 'Beth Ellen', cursive;
+    font-family: 'Lacquer', sans-serif;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Beth Ellen', cursive;
+    font-family: 'Lacquer', sans-serif;
+    font-family: 'Special Elite', cursive;*/
+    font-family: 'Rock Salt', cursive;
+    font-size: 2em;
+    font-weight: 600px;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+.main {
+    margin-top: 4px;
+}
+
+nav {
+    padding-top: 1em;
+    padding-bottom: 1.75em;
+}
+
+nav ul.inline li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.zbadges {
+    margin-top: 0.5em;
+    font-size: 16px;
+
+}
+.badge > a {
+    font-family: 'Special Elite', cursive;
+}
+
+.badge {
+    font-size: 14px;
+    margin-right: 0.5em;
+}
+
+body {
+    background: #fce2ae;
+}
+
+.background-tan {
+    background: #FFE2C7;
+}
+
+.background-teal {
+    background: #b6ffea;
+}
+
+
+.background-offwhite {
+    background-color: #fcf9ea;
+}
+
+
+.background-white {
+    background-color: #f8f8f8;
+}
+
+button {
+    background-color: #f8f8f8;
+}
+
+nav {
+    background: #ffb3b3;
+}
+
+.zcard {
+    opacity: 0.99;
+}
+
+.container {
+    padding: 0px;
+    margin: auto;
+    max-width: 740px;
+}
+
+input {
+    width: 100%;
+}
+
+footer {
+    margin-bottom: 1em;
+}
+
+header {
+    margin-top: 1em;
+}
+
+/*
+body {
+    background-image: url("https://i.imgur.com/NjDGAw5.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+
+
+.col {
+    padding: 0;
+}
+
+.badge>a {
+    color: white;
+}
