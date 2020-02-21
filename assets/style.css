@@ -1,3 +1,8 @@
+@font-face {
+    font-family: "Gloria Hallelujah";
+    src: url("./fonts/Gloria Hallelujah.otf");
+    src: url("./fonts/Gloria Hallelujah.vfb"),
+}
 .zcard {
     clear: both;
     display: flex;
